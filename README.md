@@ -62,20 +62,14 @@ torchrun --nnodes=1 --nproc_per_node=4 generate.py \
   --sample_dir $sample_dir
 
 ```
-
 | ImageNet Size |$\qquad$ Model                 | Epoch               | FID (w/o CFG) | FID (w/ CFG) |
 |:----:|--------------------|:-----------------:|:-------------:|:------------:|
 | 256  | SiT-XL (Baseline)     | 1400              | 8.3           | 2.06         |
-|      | SiT-XL + REPA         | 800               | 5.9           | 1.42         |
 |      | SiT-XL + **LSEP**     | 800               | 5.7           | 1.42         |
 | 512  | SiT-XL (Baseline)     | 600               | -             | 2.62         |
-|      | SiT-XL + REPA         | 200               | -             | 2.08         |
 |      | SiT-XL + **LSEP**     | 240               | -             | 2.00         |
 |      | SiT-XL + **LSEP** (Fine tuning) | 100     | -             | 1.66         |
 |      |  |  ||  |
-
-
-
 
 
 ## Acknowledgements
