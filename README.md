@@ -1,4 +1,4 @@
-## "No Alignment Needed for Generation: Learning Linearly Separable Representations in Diffusion Models" ##
+## No Alignment Needed for Generation: Learning Linearly Separable Representations in Diffusion Models ##
 [![arXiv](https://img.shields.io/badge/arXiv-2301.01234-red.svg)](https://arxiv.org/pdf/2509.21565)
 
 We propose Linear SEParability (LSEP) as a regularization method for training. Using a linear probe (classifier), LSEP yields substantial improvements in both training efficiency and generative performance on flow-based transformer architectures (SiTs). Our approach achieves FID of **1.42** on the 256 × 256 and **1.66** on the 512 × 512 ImageNet dataset *without relying on
