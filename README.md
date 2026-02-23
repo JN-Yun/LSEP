@@ -86,7 +86,7 @@ This codebase is mainly built upon [SiT](https://github.com/willisma/SiT) and [R
 If you use this code, please cite our paper:
 ```bibtex
 
-@article{yun2025no,
+@article{yun2025LSEP,
   title={No alignment needed for generation: Learning linearly separable representations in diffusion models},
   author={Yun, Junno and Al{\c{c}}alar, Ya{\c{s}}ar Utku and Ak{\c{c}}akaya, Mehmet},
   journal={arXiv preprint arXiv:2509.21565},
