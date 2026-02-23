@@ -1,5 +1,6 @@
 ## "No Alignment Needed for Generation: Learning Linearly Separable Representations in Diffusion Models" ##
 
+[![arXiv](https://img.shields.io/badge/arXiv-2301.01234-red.svg)](https://arxiv.org/pdf/2509.21565)
 
 <!-- ![Example Output](figure/qualitative_result.jpg) -->
 <p align="center">
@@ -69,7 +70,6 @@ torchrun --nnodes=1 --nproc_per_node=4 generate.py \
 | 512  | SiT-XL (Baseline)     | 600               | -             | 2.62         |
 |      | SiT-XL + **LSEP**     | 240               | -             | 2.00         |
 |      | SiT-XL + **LSEP** (Fine tuning) | 100     | -             | 1.66         |
-|      |  |  ||  |
 
 
 ## Acknowledgements
