@@ -3,7 +3,7 @@
 
 <!-- ![Example Output](figure/qualitative_result.jpg) -->
 <p align="center">
-  <img src="assets/gen_results.jpg" width="600">
+  <img src="assets/gen_results.jpg" width="800">
 </p>
 
 ---
@@ -26,7 +26,7 @@ Please download [ImageNet](https://www.image-net.org/download.php) and follow th
 ```bash
 sh main_LSEP.sh
 ```
-You can configure configuraionts in Tab1 and Tab5 in `main_LSEP.sh`. 
+You can configure the hyperparameters following in `main_LSEP.sh` (Please refer to the settings in Tabs. 1 and 5).
 1) `--uncond-prob`     : Probability for unconditioning for linear prob branch
 2) `--encoder-depth`   : Target depth
 3) `--crop-start`      : Random cropping window size
@@ -39,8 +39,7 @@ For evaluation, please download the reference batches of ImageNet (256 × 256 an
 
 ### 4. Pre-trained Models
 
-We provide pre-trained SiT-XL models with LSEP for ImageNet 256 and 512 \
-Pre-trained models are available at the following here [link](https://www.dropbox.com/scl/fo/gx39twsc9u688t1h8frmu/APWfpyw-GzH3M7OncePnTLw?rlkey=wnmhyj1dr3c2e2eevu6io2ndz&dl=0). Please download and place the pre-trained models under: `./exp/pretrain`
+We provide pre-trained SiT-XL models with LSEP for ImageNet at 256 and 512 resolutions. Pre-trained models are available at the following here [link](https://www.dropbox.com/scl/fo/gx39twsc9u688t1h8frmu/APWfpyw-GzH3M7OncePnTLw?rlkey=wnmhyj1dr3c2e2eevu6io2ndz&dl=0). Please download and place the pre-trained models under: `./exp/pretrain`
 
 ```bash
 
