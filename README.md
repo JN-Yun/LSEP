@@ -63,7 +63,7 @@ torchrun --nnodes=1 --nproc_per_node=4 generate.py \
 
 ```
 
-| Size |$\qquad$ Model                 | Epoch               | FID (w/o CFG) | FID (w/ CFG) |
+| ImageNet Size |$\qquad$ Model                 | Epoch               | FID (w/o CFG) | FID (w/ CFG) |
 |:----:|--------------------|:-----------------:|:-------------:|:------------:|
 | 256  | SiT-XL (Baseline)     | 1400              | 8.3           | 2.06         |
 |      | SiT-XL + REPA         | 800               | 5.9           | 1.42         |
