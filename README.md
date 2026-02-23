@@ -27,7 +27,7 @@ Please download [ImageNet](https://www.image-net.org/download.php) and follow th
 ```bash
 sh main_LSEP.sh
 ```
-You can configure the hyperparameters following in `main_LSEP.sh` (Please refer to the settings in Tabs. 1 and 5).
+You can configure the hyperparameters in `main_LSEP.sh` (Please refer to the settings in Tabs. 1 and 5).
 1) `--uncond-prob`     : Probability for unconditioning for linear prob branch
 2) `--encoder-depth`   : Target depth
 3) `--crop-start`      : Random cropping window size
