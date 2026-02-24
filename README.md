@@ -73,7 +73,7 @@ torchrun --nnodes=1 --nproc_per_node=4 generate.py \
 |      | SiT-XL + **LSEP**     | **800**               | **5.7**           | **1.42**         |
 | 512  | SiT-XL (Baseline)     | 600               | -             | 2.62         |
 |      | SiT-XL + LSEP     | 240               | -             | 2.00         |
-|      | SiT-XL + **LSEP** (Fine tuning) | **100**     | -             | **1.66**         |
+|      | SiT-XL + **LSEP** (Fine tuning from 400 epoch ckpt @ 256 resolution) | **100**     | -             | **1.66**         |
 
 
 ## Acknowledgements
