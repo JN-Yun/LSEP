@@ -52,7 +52,7 @@ def euler_sampler(
         cfg_scale=1.0,
         guidance_low=0.0,
         guidance_high=1.0,
-        path_type="linear", # not used, just for compatability
+        path_type="linear",  
         ):
     # setup conditioning
     if cfg_scale > 1.0:
@@ -107,7 +107,7 @@ def euler_maruyama_sampler(
         latents,
         y,
         num_steps=20,
-        heun=False,  # not used, just for compatability
+        heun=False,   
         cfg_scale=1.0,
         guidance_low=0.0,
         guidance_high=1.0,

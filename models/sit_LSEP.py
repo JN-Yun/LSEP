@@ -308,9 +308,9 @@ class SiT(nn.Module):
         x = self.x_embedder(x) + self.pos_embed  # (N, T, D), where T = H * W / patch_size ** 2
 
         # timestep and class embedding
-        t_embed = self.t_embedder(t)                  # (N, D)
-        y_cond = self.y_embedder(y, self.training)    # (N, D)
-        c = t_embed + y_cond                          # (N, D)
+        t_embed = self.t_embedder(t)                   
+        y_cond = self.y_embedder(y, self.training)     
+        c = t_embed + y_cond                           
     
         # for linear probing
         if self.training:
