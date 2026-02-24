@@ -54,7 +54,7 @@ cfg_scale=1.0
 cfg_guidance=1.0
 
 torchrun --nnodes=1 --nproc_per_node=4 generate.py \
-  --model SiT-$model/2 \
+  --model SiT-XL/2 \
   --num-fid-samples 50000 \
   --ckpt ./exps/pretrain/${ckpt}.pt \
   --path-type linear \
